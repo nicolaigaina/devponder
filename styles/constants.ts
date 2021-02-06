@@ -1,0 +1,12 @@
+enum THEME_COLORS {
+  PRIMARY = "#937afb",
+  SECONDARY = "#FF8D8D",
+  YELLOW = "#FBC64F",
+  WHITE = "#fff",
+  LIGHT_THEME_TEXT = "#575757",
+  DARK_THEME_TEXT = "#dadada",
+  LIGHT_THEME_FOOTER = "#8B8B8B",
+  DARK_BG = "#212121",
+}
+
+export { THEME_COLORS };
