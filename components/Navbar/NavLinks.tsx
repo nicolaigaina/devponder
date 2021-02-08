@@ -1,7 +1,7 @@
-import React from 'react';
-import { animated, config, useTrail } from 'react-spring';
-import styled from 'styled-components';
-import NavLink from './NavLink';
+import React from "react";
+import { animated, config, useTrail } from "react-spring";
+import styled from "styled-components";
+import NavLink from "./NavLink";
 
 const Links = [
   {
@@ -36,9 +36,9 @@ const NavLinks: React.FC<Props> = ({ mobile, onClick }) => {
     from: {
       opacity: 0,
       transform: "translateY(20px)",
-      // display: "flex",
-      // cursor: "pointer",
-    },
+      display: "flex",
+      cursor: "pointer",
+    } as any,
   });
 
   return (

@@ -1,12 +1,9 @@
-import styled from 'styled-components';
-import Prismic from '@prismicio/client';
-import Nav from '../components/Navbar/Nav';
-import { Client } from '../prismic-configuration';
-
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`;
+import React from "react";
+import styled from "styled-components";
+import Prismic from "@prismicio/client";
+import Hero from "../components/Hero";
+import Nav from "../components/Navbar/Nav";
+import { Client } from "../prismic-configuration";
 
 const Home = ({ docs, err, tutorials }: any) => {
   console.log("docs.results", docs.results);
@@ -15,7 +12,7 @@ const Home = ({ docs, err, tutorials }: any) => {
   return (
     <Bg>
       <Nav />
-      <Title>Hello!</Title>
+      <Hero />
     </Bg>
   );
 };
