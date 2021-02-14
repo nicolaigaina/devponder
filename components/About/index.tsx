@@ -8,7 +8,7 @@ const About: React.FC = () => {
       <h1>ABOUT ME</h1>
       <p>
         My name is <span className="bold">N Gaina</span> and I am a{" "}
-        <span className="secondary">Software Engineer</span> from the{" "}
+        <span className="bold">Software Engineer</span> from the{" "}
         <span className="primary">Bay Area, CA</span>. I have a serious passion
         for building aesthetic web applications. I specialize in creating fast
         and responsive apps that work on all devices.
@@ -17,7 +17,7 @@ const About: React.FC = () => {
         I have been developing web apps fulltime for the past 4 years. In
         addition to developing, in my spare time, I have been teaching others
         how to code on{" "}
-        <a target="_blank" href="" className="secondary underline">
+        <a target="_blank" href="" className="bold primary">
           Youtube
         </a>{" "}
         over the last year.

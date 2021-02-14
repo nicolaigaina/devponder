@@ -4,6 +4,7 @@ import Prismic from '@prismicio/client';
 import About from '../components/About';
 import Hero from '../components/Hero';
 import Nav from '../components/Navbar/Nav';
+import Projects from '../components/Projects';
 import { Client } from '../prismic-configuration';
 
 const Home = ({ docs, err, tutorials }: any) => {
@@ -15,6 +16,7 @@ const Home = ({ docs, err, tutorials }: any) => {
       <Nav />
       <Hero />
       <About />
+      <Projects projects={docs.results} err={err} />
     </Bg>
   );
 };

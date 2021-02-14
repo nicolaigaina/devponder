@@ -1,7 +1,7 @@
-import React from "react";
-import { animated, config, useTrail } from "react-spring";
-import styled from "styled-components";
-import NavLink from "./NavLink";
+import React from 'react';
+import { animated, config, useTrail } from 'react-spring';
+import styled from 'styled-components';
+import NavLink from './NavLink';
 
 const Links = [
   {
@@ -9,8 +9,8 @@ const Links = [
     href: "#about",
   },
   {
-    title: "Portfolio",
-    href: "#portfolio",
+    title: "Projects",
+    href: "#projects",
   },
   {
     title: "Contact",
