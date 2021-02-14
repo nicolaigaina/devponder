@@ -7,7 +7,7 @@ import MobileNav from './MobileNav';
 
 const Nav: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [, setIsMobile] = useState(false);
   const darkMode: DarkMode = useDarkMode(false);
 
   const changeMediaSize = () => {
