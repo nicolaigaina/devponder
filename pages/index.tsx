@@ -1,9 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import Prismic from "@prismicio/client";
-import Hero from "../components/Hero";
-import Nav from "../components/Navbar/Nav";
-import { Client } from "../prismic-configuration";
+import React from 'react';
+import styled from 'styled-components';
+import Prismic from '@prismicio/client';
+import About from '../components/About';
+import Hero from '../components/Hero';
+import Nav from '../components/Navbar/Nav';
+import { Client } from '../prismic-configuration';
 
 const Home = ({ docs, err, tutorials }: any) => {
   console.log("docs.results", docs.results);
@@ -13,6 +14,7 @@ const Home = ({ docs, err, tutorials }: any) => {
     <Bg>
       <Nav />
       <Hero />
+      <About />
     </Bg>
   );
 };

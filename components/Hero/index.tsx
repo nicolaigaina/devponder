@@ -1,9 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import { Player } from "@lottiefiles/react-lottie-player";
-import BgImg from "./HeroBackground";
-import HeroContent from "./HeroContent";
-import { Container, HeroWrapper, SvgPlayer } from "./styled";
+import React from 'react';
+import BgImg from './HeroBackground';
+import HeroContent from './HeroContent';
+import { Container, HeroWrapper, SvgPlayer } from './styled';
 
 const Hero: React.FC = () => (
   <>
@@ -13,12 +11,7 @@ const Hero: React.FC = () => (
         <HeroContent />
       </HeroWrapper>
     </Container>
-    <SvgPlayer
-      autoplay
-      loop
-      src="/scrollDown.json"
-      style={{ height: "30px", width: "30px" }}
-    />
+    <SvgPlayer autoplay loop src="" style={{ height: "30px", width: "30px" }} />
   </>
 );
 

@@ -1,7 +1,7 @@
-import { Element } from "react-scroll";
-import styled from "styled-components";
-import { Player } from "@lottiefiles/react-lottie-player";
-import { OutlinedAnchor } from "../Anchor";
+import { Element } from 'react-scroll';
+import styled from 'styled-components';
+import { Player } from '@lottiefiles/react-lottie-player';
+import { OutlinedAnchor } from '../Anchor';
 
 type Props = {
   target: string;
@@ -59,7 +59,7 @@ export const Container = styled(Element)`
   align-items: flex-start;
   .hero_bg {
     position: absolute;
-    top: -100px;
+    top: 28px;
     right: -300px;
     z-index: 0;
     width: 1200px;
@@ -104,4 +104,5 @@ export const HeroWrapper = styled.div`
   padding: 3rem 1rem;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 `;

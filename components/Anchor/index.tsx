@@ -1,10 +1,29 @@
-import React from "react";
-import { StyledOutlinedAnchor, StyledRoundedAnchor } from "./styled";
+import React from 'react';
+import { StyledOutlinedAnchor, StyledRoundedAnchor } from './styled';
 
-export const RoundedAnchor: React.FC = ({ children, ...rest }) => {
-  return <StyledRoundedAnchor {...rest}>{children}</StyledRoundedAnchor>;
+type Props = {
+  target?: string;
+  href: string;
 };
 
-export const OutlinedAnchor: React.FC = ({ children, ...rest }) => {
-  return <StyledOutlinedAnchor {...rest}>{children}</StyledOutlinedAnchor>;
-};
+export const RoundedAnchor: React.FC<Props> = ({
+  children,
+  target,
+  href,
+  ...rest
+}) => (
+  <StyledRoundedAnchor href={href} target={target} {...rest}>
+    {children}
+  </StyledRoundedAnchor>
+);
+
+export const OutlinedAnchor: React.FC<Props> = ({
+  children,
+  target,
+  href,
+  ...rest
+}) => (
+  <StyledOutlinedAnchor href={href} target={target} {...rest}>
+    {children}
+  </StyledOutlinedAnchor>
+);

@@ -2,7 +2,7 @@ import React from 'react';
 import useDarkMode from 'use-dark-mode';
 import { THEME_COLORS } from '../../styles/constants';
 
-const DarkModeToggle = () => {
+const DarkModeToggle: React.FC = () => {
   const darkMode = useDarkMode(false);
   return (
     <svg

@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import { RoundedLink } from "../Link";
-import { Anchor, ButtonWrapper, TextWrapper } from "./styled";
+import React from 'react';
+import styled from 'styled-components';
+import { RoundedLink } from '../Link';
+import { Anchor, ButtonWrapper, TextWrapper } from './styled';
 
 const Container = styled.div`
   padding: 2rem;
@@ -14,7 +14,7 @@ const HeroContent = () => {
       <TextWrapper>
         <h1>Hello,</h1>
         <h1>
-          I'm <span>Nic</span>
+          I'm <span>N</span>
         </h1>
         <p>
           <span>A</span> Software Engineer
